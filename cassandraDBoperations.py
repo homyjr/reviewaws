@@ -6,7 +6,7 @@ class cassandraDBManagement:
 
     def __init__(self):
         self.cloud_config = {
-            'secure_connect_bundle': 'D:\secure-connect-test.zip'
+            'secure_connect_bundle': 'secure-connect-test.zip'
         }
         self.auth_provider = PlainTextAuthProvider('rWBkAlIgfcvLJxvhXyfHDGyr',
                                               'L1eqqevc4xh0X7Jt+2zSZ2mrwSZclSkdwWCmn7Ra82GAefe7xf,i8,TA+1,za_lI8qFiyFW_LJAwmxQpZA.Zo-ctWc8i2h5m3rp9GB06crcXaklWJAEytP3yLJibzZr7')
